@@ -5,6 +5,7 @@
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
+    "sdkVersion": "40.0.1",
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
@@ -17,9 +18,11 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.example.rnwallet"
     },
     "android": {
+      "package": "com.example.rnwallet",
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
@@ -27,6 +30,8 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "description": "React Native Wallet",
+    "githubUrl": "https://github.com/yasniel1408/react-native-wallet.git"
   }
 }
